@@ -1,0 +1,42 @@
+* {
+    /*color: #444444;*/
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #888888;
+    margin: 0;
+}
+
+img.img-responsive{
+    height: auto;
+    width: 100%;
+}
+
+*.active{
+    color: #1593d9;
+    font-weight: 600;
+}
+
+.clearfix:before, .clearfix:after{
+    clear: both;
+    content: '';
+    display: table;
+}

@@ -1,0 +1,26 @@
+.component{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.component ul {
+
+}
+.component ul:before, .component ul:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.component ul li {
+    margin:  0 10px;
+    float: right;
+    padding: 1px 5px;
+    border-radius: 4px;
+}
+.component ul li.register{
+    background-color: #1593d9;
+    color: #fff;
+}
+.component ul li.clear{
+    clear: both;
+}

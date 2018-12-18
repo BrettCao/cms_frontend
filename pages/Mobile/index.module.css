@@ -1,0 +1,14 @@
+.avatar-uploader {
+    display: inline-block;
+    margin-top: 10px;
+}
+.avatar-uploader img{
+    height: 104px;
+    width: 104px;
+}
+
+.member-details>div{
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px
+}

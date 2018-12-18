@@ -1,0 +1,20 @@
+.periodicaListView{
+    padding: 20px 0px;
+}
+.periodicaListView article{
+    padding: 15px;
+}
+.periodicaListView img{
+    width: 100%;
+    height: 191px;
+    object-fit: cover;
+}
+.periodicaListView div{
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 5px;
+}

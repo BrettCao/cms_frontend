@@ -1,0 +1,19 @@
+.footer{
+    background-color: #444444;
+    font-size: 14px;
+    padding: 20px;
+}
+.footer .footer-by{
+    margin-top: 10px;
+}
+.footer .footer-by:before, .footer .footer-by:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.footer .footer-by>p:first-child{
+    float: left;
+}
+.footer .footer-by>p:last-child{
+    float: right;
+}

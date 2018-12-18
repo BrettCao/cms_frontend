@@ -1,0 +1,35 @@
+.periodical-filter{
+    padding: 30px 0px 10px 0;
+}
+
+.periodical-filter .item{
+    padding: 10px 0;
+}
+.periodical-filter .item:before, .periodical-filter .item:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.periodical-filter .item span{
+    float: left;
+    color: #888888;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+.periodical-filter .item span.active{
+    color: #fff;
+    background-color: #1593d9;
+
+}
+.periodical-filter .item strong{
+    float: left;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.periodical-filter .item span.none{
+    /*background-color: #1593d9;*/
+    /*color: #fff;*/
+    margin-left: 20px;
+}

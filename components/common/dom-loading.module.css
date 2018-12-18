@@ -1,0 +1,7 @@
+.domLoadingWrapper{
+    text-align: center;
+    padding: 200px;
+}
+.domLoadingWrapper .domLoadingView{
+    display: inline-block;
+}

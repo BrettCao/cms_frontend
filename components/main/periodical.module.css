@@ -1,0 +1,45 @@
+.mainPeriodical{
+    text-align: center;
+    padding: 20px;
+}
+.mainPeriodical .headerTab{
+    margin-top: 20px;
+    border-bottom: 1px solid #888888;
+    text-align: center;
+}
+.mainPeriodical .headerTab ul{
+    display: inline-block;
+}
+.mainPeriodical .headerTab ul:before, .mainPeriodical .headerTab:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.mainPeriodical .headerTab ul>li{
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+.mainPeriodical .headerTab ul>li:global(.active){
+    color: #1593d9;
+    position: relative;
+}
+.mainPeriodical .headerTab ul>li:global(.active):before{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #1593d9;
+    content: '';
+    bottom: -5px;
+    left: 0;
+}
+.mainPeriodical .btnMore{
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #f7f7f7;
+    text-algin: center;
+    cursor: pointer;
+}
+

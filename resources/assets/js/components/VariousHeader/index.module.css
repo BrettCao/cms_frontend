@@ -1,0 +1,26 @@
+.various-header{
+	border-bottom: 1px solid #eeeeee;
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.various-header .header-tabs{
+	display: inline-block;
+}
+
+.various-header .header-tabs ul:before, .various-header .header-tabs ul:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+.various-header .header-tabs ul>li{
+	float: left;
+	padding: 10px;
+	cursor: pointer;
+}
+.various-header .sort-way{
+	position: absolute;
+	right: 0px;
+	top:  10px;
+}

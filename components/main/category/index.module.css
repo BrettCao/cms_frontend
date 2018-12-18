@@ -1,0 +1,38 @@
+.categoryWrapper{
+	text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+:global(.main-category) .paper-list{
+
+}
+:global(.main-category) .categoryItem{
+    padding: 0 5px;
+}
+:global(.main-category) .categoryItem .sHeader{
+    position: relative;
+}
+:global(.main-category) .categoryItem .sHeader :global(.anticon-arrow-right){
+    position: absolute;
+    right: 0;
+    top: 9px;
+    font-size: 25px;
+}
+
+:global(.main-category) :global(.ant-select){
+    width: 100%!important;
+    margin-bottom: 10px;
+}
+
+:global(.main-category) .categoryItem h1{
+    margin-bottom: 15px;
+}
+
+:global(.main-category) .paperList article{
+    line-height: 1.4;
+    padding: 4px 0px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

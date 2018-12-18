@@ -1,0 +1,7 @@
+.dom-loading-wrapper{
+    text-align: center;
+    padding: 200px;
+}
+.dom-loading-wrapper .dom-loading-view{
+    display: inline-block;
+}

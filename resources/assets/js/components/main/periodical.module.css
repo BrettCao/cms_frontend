@@ -1,0 +1,44 @@
+.main-periodical{
+    text-align: center;
+    padding: 20px;
+}
+.main-periodical .header-tab{
+    margin-top: 20px;
+    border-bottom: 1px solid #888888;
+    text-align: center;
+}
+.main-periodical .header-tab ul{
+    display: inline-block;
+}
+.main-periodical .header-tab ul:before, .main-periodical .header-tab:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.main-periodical .header-tab ul>li{
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+.main-periodical .header-tab ul>li.active{
+    color: #1593d9;
+    position: relative;
+}
+.main-periodical .header-tab ul>li.active:before{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #1593d9;
+    content: '';
+    bottom: -5px;
+    left: 0;
+}
+.main-periodical .btn-more{
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #f7f7f7;
+    text-algin: center;
+}
+

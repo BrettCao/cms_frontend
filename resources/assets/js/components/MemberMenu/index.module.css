@@ -1,0 +1,12 @@
+ul.member-menu{
+
+}
+ul.member-menu>li{
+    padding: 5px;
+    text-align: center;
+}
+ul.member-menu>li.mobile span{
+    display: inline-block;
+    border-bottom: 1px solid #eeeeee;;
+    padding-bottom: 10px
+}

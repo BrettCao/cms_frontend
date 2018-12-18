@@ -1,0 +1,10 @@
+.periodical-list-view{
+    padding: 20px;
+}
+.periodical-list-view article{
+    padding: 15px;
+}
+.periodical-list-view img{
+    width: 100%;
+    height: auto
+}

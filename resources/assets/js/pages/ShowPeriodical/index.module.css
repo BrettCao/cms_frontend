@@ -1,0 +1,19 @@
+.periodical-tool{
+    position: relative;
+}
+.ps-tool{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 960px){
+    .ps-tool{
+        display: none;
+    }
+}
+
+.ps-tool .ant-btn{
+    /*border: none;*/
+    border-radius: 2px;
+}
