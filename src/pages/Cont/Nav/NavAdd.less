@@ -1,0 +1,38 @@
+h3 {
+  width: auto;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 10px #bababb solid;
+}
+.form {
+  border: 1px solid #bababb;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+  text-align: left;
+  :global {
+    .ant-form-item {
+      margin-bottom: 24px;
+      margin-right: 0;
+      display: flex;
+      > .ant-form-item-label {
+        width: 90px;
+        line-height: 32px;
+        text-algin: left;
+      }
+      .ant-form-item-control {
+        margin-left: 50px;
+        line-height: 32px;
+      }
+    }
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+}
+.ipt {
+  width: 300px;
+}
+.ant-form-item-label {
+  margin-right: 50px !important;
+}

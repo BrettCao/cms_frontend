@@ -1,4 +1,0 @@
-"Form Template",Field,Rule
-contact_form,name,required
-contact_form,email,required|email
-contact_form,message,required
